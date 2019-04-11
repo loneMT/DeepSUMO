@@ -26,7 +26,7 @@ pip3 install tensorflow==1.50
 
 # Running DeepSUMO
 open cmd in Windows or terminal in Linux, then cd to the DeepSUMO-master/codes folder which contains predict.py
-</br>**For general DeepSUMO site prediction using our model, run:**
+</br>**To predict general SUMOylation sites using our model, run:**
 </br>`python predict.py -input [custom predicting data in txt format] -threshold [threshold value] -output [ predicting results in csv format]`  
 </br>**Example:**
 </br>`python predict.py -input ../codes/example.txt -threshold 0.5 -output ../codes/results.csv`
